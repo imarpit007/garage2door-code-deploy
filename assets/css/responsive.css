@@ -1,0 +1,318 @@
+@media screen and (max-width: 1600px) {
+    .form-heading h1 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 8px;
+    }
+    .form-btn-wr {
+        margin-top: 30px;
+    }
+    .form-btn-wr input[type="submit"] {
+        padding: 15px 30px;
+    }
+
+}
+@media screen and (max-width: 1300px) {
+    .home-banner-content-wr {
+        position: absolute;
+        top: 100px;
+        right: 15px;
+    }
+    .home-form-wr{
+        position: sticky;
+    }
+    .main-section-wr {
+        display: block;
+    }
+}
+@media screen and (max-width:1199px) {
+    span.footer-contact-heading {
+        min-width: 120px;
+    }
+}
+@media screen and (max-width:991px) {
+    .banner-img-wr {
+        display: none;
+    }
+    .home-banner-content-wr,.home-form-wr {
+        position: unset;
+        margin: 30px auto;
+        width: 100%;
+    }
+    .home-banner-wr {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-right-wr {
+        width: 17%;
+    }
+    .footer-middle-wr {
+        width: 40%;
+    }
+    .footer-left-wr {
+        width: 35%;
+    }
+    .footer-right-wr a {
+        width: 100%;
+    }
+}
+@media (min-width: 481px){
+
+    .nav_toggle, .nav_close_btn {
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .card-block a {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .card-block a img {
+        width: 100%;
+    }
+    .header-form-grp-wr>div:first-child {
+        margin-bottom: 15px;
+    }
+    .left-arrow-img,.right-arrow-img {
+        width: 20px;
+    }
+    .car-working-detail-sec h4 {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 12px;
+    }
+    .car-services-rating-box span.rating-number {
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .car-services-rating-box span.rating-title {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .car-services-rating-box{
+        margin-bottom: 30px;
+    }
+    .car-services-app-download-sec {
+        margin-top: 70px;
+    }
+    .car-services-app-download-sec p {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .car-get-app-link-wr {
+        width: fit-content;
+        justify-content: end;
+    }
+    .footer-right-wr {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        margin-top: 30px;
+    }
+    .footer-right-wr>div {
+        width: 100%;
+        margin: 0px 20px 0px 0px;
+        max-width: 150px;
+    }
+    .footer-middle-wr,.footer-left-wr {
+        width: 50%;
+    }
+}
+@media screen and (max-width:650px) {
+    .car-services-app-download-sec {
+        margin-top: 35px;
+    }
+
+}
+@media screen and (max-width:575px) {
+    .car-services-app-img {
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .car-services-app-img {
+        height: 100%;
+    }
+    .car-services-app-download-sec {
+        margin-top: 0px;
+    }
+    .car-download-images-sec, .car-get-app-link-wr {
+        justify-content: center !important;
+        margin: 0 auto;
+    }
+    .car-download-images-sec{
+        margin: 20px 0px;
+    }
+    .car-tab-heading-wr h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .car-services-why-choose-wr ul {
+        padding-left: 20px !important;
+    }
+    
+        
+}
+@media screen and (max-width:568px) {
+    .car-working-process-no {
+        display: none !important;
+    }
+    .car-working-blk:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .car-working-blk{
+        align-items: center !important;
+    }
+    .footer-top-detail-wr ul li a {
+        font-size: 14px;
+        line-height: 18px;
+    }    
+    .footer-top-detail-wr ul li {
+        margin-bottom: 7px;
+    }
+    .footer-top-heading h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }    
+    .footer-middle-wr, .footer-left-wr {
+        width: 100%;
+    }
+    .footer-middle-wr{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:480px) {
+    .form-heading h1 {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .car-tab-heading-wr h2 {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .car-working-detail-sec h4 {
+        font-size: 17px;
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+    .car-working-detail-sec p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .car-accordion-faq-heading:after {
+        background-size: contain !important;
+        width: 16px !important;
+    }
+    .form-heading h1 {
+        font-size: 23px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .header-logo-sec a {
+        width: 120px;
+    }
+    .header-menu-show-sec {
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 500ms cubic-bezier(0.480,0,0.535,1);
+    -webkit-transition: all 500ms cubic-bezier(0.480,-0.050,0.535,1.370);
+    -moz-transition: all 500ms cubic-bezier(0.480,-0.050,0.535,1.370);
+    -o-transition: all 500ms cubic-bezier(0.480,-0.050,0.535,1.370);
+    transition: all 500ms cubic-bezier(0.480,-0.050,0.535,1.370);
+    position: fixed;
+    top: 0;
+    width: 300px;
+    left: -300px;
+    z-index: 99;
+    padding: 15px 25px;
+    border-radius: 0;
+    height: 100%;
+    box-shadow: 0 0 12px #000;
+    overflow-y: auto;
+    }
+    .header-menu-show-sec.menu_open {
+        visibility: visible;
+        opacity: 1;
+        display: block !important;
+        left: 0;
+    }
+    .header-menu-wr ul li a {
+        color: #6639b6;
+        padding: 0px;
+    }
+    .header-btn-wr.common-btn a {
+        color: #fff;
+        background-color: #6639B6;
+    }
+    .header-btn-wr {
+        margin-top: 10px;
+    }
+    .footer-sevices-two-sec {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:414px) {
+    .car-tab-heading-wr h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .home-form-inner-sec {
+        padding: 35px 20px;
+    }
+    .form-heading span {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .footer-services-wr{
+        width: 100%;
+    }
+    .car-workshop-near-sec {
+        margin: 28px auto;
+        padding-top: 30px;
+    }
+    .car-workshop-near-sec span.dev_prev_button, .car-workshop-near-sec span.dev_next_button {
+        top: 0;
+        right: 0px;
+    }
+    .car-workshop-near-sec span.dev_prev_button {
+        left: 0px !important;
+    }
+    .see-more-detail-sec {
+        flex-direction: column;
+    }
+    .seemore-btn {
+        align-self: flex-end;
+    }
+}
+@media screen and (max-width:375px) {
+    .header-menu-show-sec{
+        width: 250px;
+    }
+    .nav_toggle {
+        width: 40px;
+    }
+    .car-app-link-sec {
+        font-size: 13px;
+        padding: 7px;
+        line-height: 16px;
+    }
+    .car-services-app-img {
+        width: 280px;
+    }
+    .car-app-link-mobile-sec input {
+        margin-left: 6px;
+    }
+    .car-service-tab-title-wr ul li.actives a {
+        font-size: 18px;
+    }
+    .left-arrow-img, .right-arrow-img {
+        width: 30px;
+    }
+    .footer-copywrite-sec p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
